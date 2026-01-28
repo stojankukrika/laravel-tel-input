@@ -1,6 +1,6 @@
 <?php
 
-namespace Victorybiz\LaravelTelInput;
+namespace Stojankukrika\LaravelTelInput;
 
 use Illuminate\View\Component;
 

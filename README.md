@@ -2,18 +2,18 @@
 
 Laravel Telephone Input component for Blade and Livewire based on the [intl-tel-input](https://github.com/jackocnr/intl-tel-input) JavaScript plugin.  
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/victorybiz/laravel-tel-input.svg?style=flat-square)](https://packagist.org/packages/victorybiz/laravel-tel-input)
-[![Total Downloads](https://img.shields.io/packagist/dt/victorybiz/laravel-tel-input.svg?style=flat-square)](https://packagist.org/packages/victorybiz/laravel-tel-input)
-![GitHub Actions](https://github.com/victorybiz/laravel-tel-input/actions/workflows/main.yml/badge.svg)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/stojankukrika/laravel-tel-input.svg?style=flat-square)](https://packagist.org/packages/stojankukrika/laravel-tel-input)
+[![Total Downloads](https://img.shields.io/packagist/dt/stojankukrika/laravel-tel-input.svg?style=flat-square)](https://packagist.org/packages/stojankukrika/laravel-tel-input)
+![GitHub Actions](https://github.com/stojankukrika/laravel-tel-input/actions/workflows/main.yml/badge.svg)
 
 ### DEMO PREVIEW
 1. Simple Usage Demo
    
-![preview](https://github.com/victorybiz/laravel-tel-input/raw/main/demo.gif) 
+![preview](https://github.com/stojankukrika/laravel-tel-input/raw/main/demo.gif) 
 
 2. Country Sync Demo
    
-![preview](https://github.com/victorybiz/laravel-tel-input/raw/main/demo2.gif) 
+![preview](https://github.com/stojankukrika/laravel-tel-input/raw/main/demo2.gif) 
 
 ## Table of Contents
 - [Laravel Telephone Input](#laravel-telephone-input)
@@ -52,7 +52,7 @@ Laravel Telephone Input component for Blade and Livewire based on the [intl-tel-
 You can install the package via composer:
 
 ```bash
-composer require victorybiz/laravel-tel-input
+composer require stojankukrika/laravel-tel-input
 ```
 
 <a name="directives"></a>
@@ -296,13 +296,13 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ### Security
 
-If you discover any security related issues, please email lavictorybiz@gmail.com instead of using the issue tracker.
+If you discover any security related issues, please email lastojankukrika@gmail.com instead of using the issue tracker.
 
 <a name="credits"></a>
 
 ## Credits
 
--   [Victory Osayi Airuoyuwa](https://github.com/victorybiz)
+-   [Victory Osayi Airuoyuwa](https://github.com/stojankukrika)
 -   [All Contributors](../../contributors)
 
 <a name="license"></a>

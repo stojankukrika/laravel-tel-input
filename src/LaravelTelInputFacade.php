@@ -1,11 +1,11 @@
 <?php
 
-namespace Victorybiz\LaravelTelInput;
+namespace Stojankukrika\LaravelTelInput;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Victorybiz\LaravelTelInput\Skeleton\SkeletonClass
+ * @see \Stojankukrika\LaravelTelInput\Skeleton\SkeletonClass
  */
 class LaravelTelInputFacade extends Facade
 {

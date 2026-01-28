@@ -1,6 +1,6 @@
 <?php
 
-namespace Victorybiz\LaravelTelInput;
+namespace Stojankukrika\LaravelTelInput;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Blade;
@@ -49,10 +49,10 @@ class LaravelTelInputServiceProvider extends ServiceProvider
         Blade::component(config('laravel-tel-input.component-name', 'tel-input'), LaravelTelInput::class);
 
         Blade::directive('laravelTelInputStyles', function () {
-            return "<?php echo \\Victorybiz\\LaravelTelInput\\LaravelTelInputAssetLoader::outputStyles(); ?>";
+            return "<?php echo \\Stojankukrika\\LaravelTelInput\\LaravelTelInputAssetLoader::outputStyles(); ?>";
         });
         Blade::directive('laravelTelInputScripts', function () {            
-            return "<?php echo \\Victorybiz\\LaravelTelInput\\LaravelTelInputAssetLoader::outputScripts(); ?>";
+            return "<?php echo \\Stojankukrika\\LaravelTelInput\\LaravelTelInputAssetLoader::outputScripts(); ?>";
         });
 
         View::composer('laravel-tel-input::assets', function ($view) {

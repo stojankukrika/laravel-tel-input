@@ -1,8 +1,8 @@
 {
-    "name": "victorybiz/laravel-tel-input",
+    "name": "stojankukrika/laravel-tel-input",
     "description": "Laravel Telephone Input component for Blade and Livewire based on the intl-tel-input JavaScript plugin. ",
     "keywords": [
-        "victorybiz",
+        "stojankukrika",
         "laravel-tel-input",
         "livewire-tel-input",
         "tel-input",
@@ -15,32 +15,32 @@
         "laravel-blade",
         "blade"
     ],
-    "homepage": "https://github.com/victorybiz/laravel-tel-input",
+    "homepage": "https://github.com/stojankukrika/laravel-tel-input",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
-            "name": "Victory Osayi Airuoyuwa",
-            "email": "lavictorybiz@gmail.com",
+            "name": "Stojan Kukrika",
+            "email": "mrakodol@gmail.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.4|^8.0",
+        "php": "^7.4|^8.0|^8.1|^8.2|^8.3|^8.4|^8.5",
         "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0"
     },
     "require-dev": {
         "orchestra/testbench": "^6.0|^7.0|^9.0|^10.0",
-        "phpunit/phpunit": "^9.0|^10.0|^11.5.3"
+        "phpunit/phpunit": "^9|^10|^11|^12"
     },
     "autoload": {
         "psr-4": {
-            "Victorybiz\\LaravelTelInput\\": "src"
+            "Stojankukrika\\LaravelTelInput\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Victorybiz\\LaravelTelInput\\Tests\\": "tests"
+            "Stojankukrika\\LaravelTelInput\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -53,10 +53,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Victorybiz\\LaravelTelInput\\LaravelTelInputServiceProvider"
+                "Stojankukrika\\LaravelTelInput\\LaravelTelInputServiceProvider"
             ],
             "aliases": {
-                "LaravelTelInput": "Victorybiz\\LaravelTelInput\\LaravelTelInputFacade"
+                "LaravelTelInput": "Stojankukrika\\LaravelTelInput\\LaravelTelInputFacade"
             }
         }
     }
